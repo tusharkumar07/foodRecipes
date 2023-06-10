@@ -11,3 +11,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color:#487eb0;
+}
+.main{
+  padding: 2.5em;
+}
+.heading{
+  text-align: center;
+}
+.searchbox{
+  margin-bottom: 2em;
+  text-align: center;
+}
+.searchbox input{
+  width: 25em;
+  height: 2.5em;
+  border-radius: 1em;
+  border: none;
+  font-size: 1em;
+  padding-left: 2em;
+}
+.card img{
+  height: 18em;
+  padding-top: 1em;
+  width: auto;
+}
+.card{
+  border: 2px solid #353b48;
+  width: 19em;
+  border-radius: 1.5em;
+  margin-right: 1em;
+  text-align: center;
+  margin-bottom: 2em;
+  background-color: white;
+}
+.card h3{
+  background-color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.card{
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recipeindex{
+  display: flex;
+  flex-direction: row;
+}
+.numBox{
+  padding: 0em 0.6em;
+  margin-right: 1em;
+  color: white;
+  background-color: black;
+}
+.numBox :hover{
+  cursor: pointer;
+}
+.content{
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+.content img{
+  width: 25em;
+  margin-top: 2em;
+  height: auto;
+}
+.innerContent h1{
+  border: 1px solid white;
+  padding: 0.5em 0em;
+  margin: 0em 15.3em;
+  background-color: white;
+}
+.innerContent h2{
+  border: 1px solid white;
+  padding: 0.5em 0em;
+  margin: 0.5em 20.3em;
+  background-color: white;
+}
+.innerContent h3{
+  border: 1px solid white;
+  padding: 0.5em 0em;
+  margin: 0.5em 26em;
+  background-color: white;
+}
+.impContent{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+}
+.impContent .integrents{
+  width: 330em;
+  /* border: 1px solid red; */
+  padding: 2em;
+}
+.impContent .instructions{
+  padding-right: 6em;
+  text-align: justify;
+  margin-left: 10em;
+  /* border: 1px solid red; */
+}
+.instructions h2{
+  position: absolute;
+  left: 38em;
+  margin-top: 2em;
+  background-color:black;
+  color: white;
+  padding: 0.3em 1em;
+}
+.instructions h4{
+  margin-top: 8em;
+}
+.integrents h2 {
+  padding-left: 1em;
+  margin-left: 10em;
+  background-color: black;
+  color: white;
+  padding: 0.3em 1em;
+  width: 5em;
+}
+.integrents h4{
+  padding-left: 16em;
+}
+
+.video{
+  margin: 3em 0em;
+  text-align: center;
+}
+.video iframe{
+  width: 70em;
+  height: 40em;
+}

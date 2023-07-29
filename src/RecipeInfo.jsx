@@ -21,9 +21,9 @@ const RecipeInfo=()=>{
                     <div className="content">
                         <img src={item.strMealThumb} />
                         <div className="innerContent">
-                            <h1>{item.strMeal}</h1>
-                            <h2>{item.strArea}</h2>
-                            <h3>Category :{item.strCategory}</h3>
+                            <h3>{item.strMeal}</h3>
+                            <h4>{item.strArea}</h4>
+                            <h4>Category :{item.strCategory}</h4>
                         </div>
                     </div>
                     <div className="impContent">

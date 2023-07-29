@@ -17,6 +17,7 @@ body{
 }
 .main{
   padding: 2.5em;
+  background-color:#E0FFFF ;
 }
 .heading{
   text-align: center;
@@ -59,6 +60,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color:#E0FFFF ;
 }
 .recipeindex{
   display: flex;
@@ -76,50 +78,50 @@ body{
 .content{
   text-align: center;
   border-bottom: 3px solid black;
+  border: 1px solid black;
+  background-color: #FF6347;
 }
 .content img{
   width: 25em;
   margin-top: 2em;
   height: auto;
 }
-.innerContent h1{
-  border: 1px solid white;
-  padding: 0.5em 0em;
-  margin: 0em 15.3em;
+.innerContent h3{
+  border: 1px solid black;
+  padding: 0.2em 0em;
+  margin: 0.5em 15em 0em 17.3em  ;
+  width: 14.5em;
   background-color: white;
 }
-.innerContent h2{
-  border: 1px solid white;
-  padding: 0.5em 0em;
+.innerContent h4{
+  border: 1px solid black;
+  padding: 0em 0em 0.5em 0em;
   margin: 0.5em 20.3em;
   background-color: white;
 }
-.innerContent h3{
-  border: 1px solid white;
-  padding: 0.5em 0em;
-  margin: 0.5em 26em;
-  background-color: white;
-}
+
 .impContent{
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: white;
+  background-color:#E0FFFF ;
 }
 .impContent .integrents{
-  width: 330em;
-  /* border: 1px solid red; */
+  width: 300em;
   padding: 2em;
+  padding-left: 2em;
+  margin: 1.5em 8em 0em 2em;
 }
 .impContent .instructions{
   padding-right: 6em;
   text-align: justify;
   margin-left: 10em;
-  /* border: 1px solid red; */
 }
+
+
 .instructions h2{
   position: absolute;
-  left: 38em;
+  left: 28em;
   margin-top: 2em;
   background-color:black;
   color: white;
@@ -129,15 +131,15 @@ body{
   margin-top: 8em;
 }
 .integrents h2 {
-  padding-left: 1em;
-  margin-left: 10em;
+  margin-left: 2em;
+  margin-bottom: 2.3em;
   background-color: black;
   color: white;
   padding: 0.3em 1em;
-  width: 5em;
+  margin-top: 0.3em;
 }
 .integrents h4{
-  padding-left: 16em;
+  padding-left: 4em;
 }
 
 .video{
@@ -147,4 +149,7 @@ body{
 .video iframe{
   width: 70em;
   height: 40em;
+}
+.instructions{
+  background-color: #E0FFFF;
 }
